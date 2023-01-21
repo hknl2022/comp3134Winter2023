@@ -1,0 +1,35 @@
+root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# traceroute {nba.com}
+{nba.com}: Name or service not known
+Cannot handle "host" cmdline arg `{nba.com}' on position 1 (argc 1)
+root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# traceroute nba.com
+traceroute to nba.com (34.213.106.51), 30 hops max, 60 byte packets
+ 1  162.243.190.6 (162.243.190.6)  1.528 ms  1.480 ms 162.243.190.5 (162.243.190.5)  1.965 ms
+ 2  138.197.249.94 (138.197.249.94)  1.950 ms 138.197.249.74 (138.197.249.74)  1.925 ms 138.197.249.80 (138.197.249.80)  1.910 ms
+ 3  138.197.249.82 (138.197.249.82)  1.895 ms 138.197.249.90 (138.197.249.90)  1.880 ms 138.197.249.78 (138.197.249.78)  1.865 ms
+ 4  ix-ae-4-0.tcore1.tnk-toronto.as6453.net (63.243.172.33)  2.034 ms ix-ae-12-0.tcore1.tnk-toronto.as6453.net (64.86.33.53)  3.758 ms  3.741 ms
+ 5  if-ae-2-2.tcore2.tnk-toronto.as6453.net (64.86.33.90)  65.476 ms  65.620 ms  65.250 ms
+ 6  if-ae-8-2.tcore1.ct8-chicago.as6453.net (66.110.48.2)  63.238 ms  62.514 ms  62.473 ms
+ 7  if-ae-22-2.tcore2.ct8-chicago.as6453.net (64.86.79.1)  62.738 ms  62.722 ms  62.389 ms
+ 8  if-ae-51-2.tcore2.sqn-sanjose.as6453.net (64.86.79.15)  64.976 ms  64.960 ms  64.945 ms
+ 9  if-ae-1-2.tcore1.sqn-sanjose.as6453.net (63.243.205.1)  62.618 ms  62.518 ms  62.804 ms
+10  if-ae-18-5.tcore2.sv1-santaclara.as6453.net (63.243.205.37)  64.236 ms if-ae-18-2.tcore2.sv1-santaclara.as6453.net (63.243.205.73)  64.165 ms if-ae-18-5.tcore2.sv1-santaclara.as6453.net (63.243.205.37)  64.279 ms
+11  if-ae-0-2.tcore1.sv1-santaclara.as6453.net (63.243.251.1)  64.511 ms  98.827 ms  65.353 ms
+12  * * *
+13  64.86.197.113 (64.86.197.113)  64.189 ms  64.165 ms  64.148 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *

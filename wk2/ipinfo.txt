@@ -1,0 +1,23 @@
+---------------IPv4 Address for www.youtube.com
+ Domain Server IP: 173.194.218.136
+ Domain Server IP: 173.194.218.190
+ Domain Server IP: 173.194.218.93
+ Domain Server IP: 108.177.11.91
+ Domain Server IP: 108.177.11.190
+ Domain Server IP: 173.194.213.136
+ Domain Server IP: 173.194.213.93
+ Domain Server IP: 173.194.212.91
+ Domain Server IP: 173.194.212.93
+ Domain Server IP: 74.125.134.91
+ Domain Server IP: 74.125.134.136
+ Domain Server IP: 74.125.134.93
+ Domain Server IP: 74.125.134.190
+ Domain Server IP: 173.194.210.93
+ Domain Server IP: 173.194.210.91
+ Domain Server IP: 74.125.196.91
+---------------IPv4 Address for www.instagram.com
+ Domain Server IP: 31.13.67.174
+
+===============IPv4 Address for www.udemy.com
+ Domain Server IP: 104.16.65.85
+ Domain Server IP: 104.16.66.85

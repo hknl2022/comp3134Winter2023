@@ -1,0 +1,5 @@
+root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# ping nba.com
+PING nba.com (34.213.106.51) 56(84) bytes of data.
+--- nba.com ping statistics ---
+383 packets transmitted, 0 received, 100% packet loss, time 391154ms
+
