@@ -1,0 +1,35 @@
+
+:43:39.107251 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 496172:499092, ack 181, win 501, length 2920
+        0x0000:  fe00 0000 0101 e212 b391 9c56 0800 4510  ...........V..E.
+        0x0010:  0b90 d4fd 4000 4006 9d9c 867a 2101 63f7  ....@.@....z!.c.
+        0x0020:  b14b 0016 c3e7 4297 e4a5 55c6 a0ae 5018  .K....B...U...P.
+        0x0030:  01f5 c840 0000 a098 db30 338a eeea fff2  ...@.....03.....
+        0x0040:  260b 1112 4dfe 48aa 4892 d66c 7384 7d80  &...M.H.H..ls.}.
+        0x0050:  f652 d38c 0b25 7d1b cdbd 1582 a081 0c56  .R...%}........V
+        0x0060:  1efd c7b1 dfd8 a11e 8659 3614 d543 41a9  .........Y6..CA.
+        0x0070:  cef7 6753 426a 8ca7 0deb 797d bf82 726d  ..gSBj....y}..rm
+        0x0080:  756b e9d9 d52d e216 e708 56fd 0cd4 1356  uk...-....V....V
+        0x0090:  6443 2deb f5cd 7a96 79b6 c3b7 a20c c674  dC-...z.y......t
+        0x00a0:  feec 1518 fa22 ffe0 a111 d7a4 b2d7 0ad9  ....."..........
+        0x00b0:  8581 fc30 80f7 c37d 1f0a d5f1 e78a f701  ...0...}........
+        0x00c0:  6414 76c7 2196 9303 6ef3 9c96 f1b8 6ee5  d.v.!...n.....n.
+        0x00d0:  0569 01c8 b0c9 30f1 465c e70d 8bae 20c1  .i....0.F\......
+        0x00e0:  9605 067a 63f2 0e09 46c3 8ae6 919b 5eb6  ...zc...F.....^.
+        0x00f0:  9eb4 4aab 8f9a 5ba6 a779 89ef bd30 e393  ..J...[..y...0..
+        0x0100:  afb0 d032 b54a 7807 1c51 9611 4f0b 838d  ...2.Jx..Q..O...
+        0x0110:  3dd5 f333 9c3e 6f48 55bb d3c2 e4df 3088  =..3.>oHU.....0.
+        0x0120:  5dee 6039 319d 0f20 2b16 9a64 10f7 f510  ].`91...+..d....
+        0x0130:  4cc0 56e4 04e4 9e67 3d60 bed0 0a89 4e00  L.V....g=`....N.
+        0x0140:  4da3 9f51 6ced 4f71 ce65 1168 f6ad aaf0  M..Ql.Oq.e.h....
+        0x0150:  af86 5076 1067 0bba 1d6a d753 8561 4274  ..Pv.g...j.S.aBt
+        0x0160:  7064 d9fa f09c d3bd 5fd3 01ef 4fc4 d72a  pd......_...O..*
+        0x0170:  6c43 ebe9 ce38 1609 62bd ceff 7957 cf51  lC...8..b...yW.Q
+        0x0180:  b3b4 0b86 2876 1fb2 012c ced7 aa93 6141  ....(v...,....aA
+        0x0190:  b5ee 4878 b14a 67a2 0565 1a86 9076 b536  ..Hx.Jg..e...v.6
+        0x01a0:  6111 5d68 9d3d f710 2f93 f6b5 2cdb da8b  a.]h.=../...,...
+        0x01b0:  e0a6 f07f 64dd 3855 e2f1 b5de c5b8 da10  ....d.8U........
+        0x01c0:  f133 c65d e497 35e6 db81 8172 a99b 794c  .3.]..5....r..yL
+        0x01d0:  fd65 a8ee 6b6e ba63 6e09 df2b d53a f46c  .e..kn.cn..+.:.l
+        0x01e0:  06fd fa98 baa8 682b 0447 d3a0 cbef 0d0d  ......h+.G......
+        0x01f0:  6968 66e9 84cb dcda e251 c6da 3d96 7b4c  ihf......Q..=.{L
+        0x0200:  4818 2f43 816a b50d 59c1 3c17 724f 3764  H./C.j..Y.<.rO7d
