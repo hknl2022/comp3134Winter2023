@@ -1,5 +1,0 @@
-root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping nba.com -w60
-PING nba.com (54.68.182.72) 56(84) bytes of data.
-^C
---- nba.com ping statistics ---
-12 packets transmitted, 0 received, 100% packet loss, time 11265ms
