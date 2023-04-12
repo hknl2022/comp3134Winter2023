@@ -1,4 +1,4 @@
-root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# iptables -L -v
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# iptables -L -v
 Chain INPUT (policy DROP 109 packets, 6984 bytes)
  pkts bytes target     prot opt in     out     source               destination
  297K   40M f2b-sshd   tcp  --  any    any     anywhere             anywhere             multiport dports ssh

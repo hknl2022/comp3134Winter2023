@@ -1,7 +1,7 @@
-root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# traceroute {nba.com}
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# traceroute {nba.com}
 {nba.com}: Name or service not known
 Cannot handle "host" cmdline arg `{nba.com}' on position 1 (argc 1)
-root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# traceroute nba.com
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# traceroute nba.com
 traceroute to nba.com (34.213.106.51), 30 hops max, 60 byte packets
  1  162.243.190.6 (162.243.190.6)  1.528 ms  1.480 ms 162.243.190.5 (162.243.190.5)  1.965 ms
  2  138.197.249.94 (138.197.249.94)  1.950 ms 138.197.249.74 (138.197.249.74)  1.925 ms 138.197.249.80 (138.197.249.80)  1.910 ms

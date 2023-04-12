@@ -1,0 +1,401 @@
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+17:35:59.733335 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 1053827937:10538279
+17:35:59.735032 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 36:144, ack 1, win
+17:35:59.735111 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 144:180, ack 1, win
+17:35:59.735251 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 180:288, ack 1, win
+17:35:59.735296 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 288:324, ack 1, win
+17:35:59.735923 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.55068 > 67.207.67.3.domain: 51349+ [1au] PTR? 75.177.247.99.in-addr.arpa. (55)
+17:35:59.736017 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.51434 > 67.207.67.2.domain: 16747+ [1au] PTR? 75.177.247.99.in-addr.arpa. (55)
+17:35:59.736068 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.54594 > 67.207.67.3.domain: 15935+ [1au] PTR? 75.177.247.99.in-addr.arpa. (55)
+17:35:59.737001 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.51434: 16747 1/0/1 PTR cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com. (12
+17:35:59.737071 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.55068: 51349 1/0/1 PTR cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com. (12
+17:35:59.737096 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.54594: 15935 1/0/1 PTR cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com. (12
+17:35:59.737535 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.45345 > 67.207.67.3.domain: 23708+ [1au] PTR? 1.33.122.134.in-addr.arpa. (54)
+17:35:59.737649 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.39255 > 67.207.67.2.domain: 22722+ [1au] PTR? 1.33.122.134.in-addr.arpa. (54)
+17:35:59.737712 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.41230 > 67.207.67.3.domain: 45908+ [1au] PTR? 1.33.122.134.in-addr.arpa. (54)
+17:35:59.737761 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.45345: 23708 NXDomain 0/1/1 (121)
+17:35:59.737865 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.45345 > 67.207.67.3.domain: 23708+ PTR? 1.33.122.134.in-addr.arpa. (43)
+17:35:59.737892 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.41230: 45908 NXDomain 0/1/1 (121)
+17:35:59.737920 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.39255: 22722 NXDomain 0/1/1 (121)
+17:35:59.737950 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.41230 > 67.207.67.3.domain: 45908+ PTR? 1.33.122.134.in-addr.arpa. (43)
+17:35:59.738000 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.39255 > 67.207.67.2.domain: 22722+ PTR? 1.33.122.134.in-addr.arpa. (43)
+17:35:59.738034 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.45345: 23708 NXDomain 0/1/0 (110)
+17:35:59.738067 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.41230: 45908 NXDomain 0/1/0 (110)
+17:35:59.738233 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.39255: 22722 NXDomain 0/1/0 (110)
+17:35:59.738577 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 324:552, ack 1, win
+17:35:59.738630 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 552:588, ack 1, win
+17:35:59.738687 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 588:792, ack 1, win
+17:35:59.738727 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 792:828, ack 1, win
+17:35:59.738777 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 828:1032, ack 1, wi
+17:35:59.739155 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.59847 > 67.207.67.3.domain: 6336+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+17:35:59.739221 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.57158 > 67.207.67.2.domain: 5993+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+17:35:59.739299 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.38289 > 67.207.67.3.domain: 28292+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+17:35:59.739370 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.59847: 6336 NXDomain 0/1/1 (120)
+17:35:59.739455 IP 67.207.67.2.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.57158: 5993 NXDomain 0/1/1 (120)
+17:35:59.739466 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.38289: 28292 NXDomain 0/1/1 (120)
+17:35:59.739489 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.59847 > 67.207.67.3.domain: 6336+ PTR? 3.67.207.67.in-addr.arpa. (42)
+17:35:59.739561 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.57158 > 67.207.67.2.domain: 5993+ PTR? 3.67.207.67.in-addr.arpa. (42)
+17:35:59.739612 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.38289 > 67.207.67.3.domain: 28292+ PTR? 3.67.207.67.in-addr.arpa. (42)
+17:35:59.740429 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.50165 > 67.207.67.3.domain: 8544+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+17:35:59.753372 IP cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 288, win 1025, lengt
+17:35:59.753373 IP cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 792, win 1023, lengt
+17:35:59.753373 IP cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1032, win 1022, leng
+17:35:59.753420 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 1032:3952, ack 1, w
+17:35:59.753438 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 3952:6872, ack 1, w
+17:35:59.753476 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 6872:8212, ack 1, w
+17:35:59.753572 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 8212:8408, ack 1, w
+17:35:59.753623 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 8408:8444, ack 1, w
+17:35:59.753677 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 8444:8640, ack 1, w
+17:35:59.753719 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 8640:8676, ack 1, w
+17:35:59.753797 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 8676:8872, ack 1, w
+17:35:59.753847 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 8872:8908, ack 1, w
+17:35:59.753919 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 8908:9120, ack 1, w
+17:35:59.753963 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 9120:9156, ack 1, w
+17:35:59.754013 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 9156:9368, ack 1, w
+17:35:59.754053 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 9368:9404, ack 1, w
+17:35:59.754103 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 9404:9616, ack 1, w
+17:35:59.754164 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 9616:9652, ack 1, w
+17:35:59.754242 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 9652:9864, ack 1, w
+17:35:59.754299 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 9864:9900, ack 1, w
+17:35:59.754369 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 9900:10112, ack 1,
+17:35:59.778837 IP cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 9900, win 1024, leng
+17:35:59.778909 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 10112:13032, ack 1,
+17:35:59.778963 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 13032:13372, ack 1,
+17:35:59.779116 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 13372:13568, ack 1,
+17:35:59.779170 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 13568:13604, ack 1,
+17:35:59.779199 IP cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:37, ack 2492, win
+17:35:59.779285 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 13604:13816, ack 37
+17:35:59.779326 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 13816:13852, ack 37
+17:35:59.779376 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 13852:14064, ack 37
+17:35:59.779415 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 14064:14100, ack 37
+17:35:59.779462 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 14100:14312, ack 37
+17:35:59.779500 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 14312:14348, ack 37
+17:35:59.779553 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 14348:14560, ack 37
+17:35:59.779598 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 14560:14596, ack 37
+17:35:59.779655 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 14596:14808, ack 37
+17:35:59.779703 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 14808:14844, ack 37
+17:35:59.779754 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 14844:15056, ack 37
+17:35:59.779793 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 15056:15092, ack 37
+17:35:59.779841 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 15092:15304, ack 37
+17:35:59.779894 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 15304:15340, ack 37
+17:35:59.779950 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 15340:15552, ack 37
+17:35:59.780004 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 15552:15588, ack 37
+17:35:59.780055 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 15588:15800, ack 37
+17:35:59.780095 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 15800:15836, ack 37
+17:35:59.780178 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 15836:16048, ack 37
+17:35:59.780230 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 16048:16084, ack 37
+17:35:59.780282 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 16084:16296, ack 37
+17:35:59.780325 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 16296:16332, ack 37
+17:35:59.780369 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 16332:16544, ack 37
+17:35:59.780410 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 16544:16580, ack 37
+17:35:59.780454 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 16580:16792, ack 37
+17:35:59.780491 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 16792:16828, ack 37
+17:35:59.780537 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 16828:17040, ack 37
+17:35:59.780576 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 17040:17076, ack 37
+17:35:59.780622 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 17076:17288, ack 37
+17:35:59.780660 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 17288:17324, ack 37
+17:35:59.780708 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 17324:17536, ack 37
+17:35:59.780746 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 17536:17572, ack 37
+17:35:59.780792 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 17572:17784, ack 37
+17:35:59.807704 IP cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 13568, win 1024, len
+17:35:59.807704 IP cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 15092, win 1024, len
+17:35:59.807704 IP cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 17784, win 1026, len
+17:35:59.807775 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 17784:20704, ack 37
+17:35:59.807806 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 20704:23028, ack 37
+17:35:59.808017 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 23028:23224, ack 37
+17:35:59.808066 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 23224:23260, ack 37
+17:35:59.808118 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 23260:23456, ack 37
+17:35:59.808158 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 23456:23492, ack 37
+17:35:59.808205 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 23492:23688, ack 37
+17:35:59.808243 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 23688:23724, ack 37
+17:35:59.808291 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 23724:23936, ack 37
+17:35:59.808329 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 23936:23972, ack 37
+17:35:59.808422 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 23972:24184, ack 37
+17:35:59.808493 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 24184:24220, ack 37
+17:35:59.808567 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 24220:24432, ack 37
+17:35:59.808621 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 24432:24468, ack 37
+17:35:59.808673 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 24468:24680, ack 37
+17:35:59.808713 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 24680:24716, ack 37
+17:35:59.808760 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 24716:24928, ack 37
+17:35:59.808799 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 24928:24964, ack 37
+17:35:59.808845 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 24964:25176, ack 37
+17:35:59.808882 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 25176:25212, ack 37
+17:35:59.808928 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 25212:25424, ack 37
+17:35:59.808966 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 25424:25460, ack 37
+17:35:59.809012 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 25460:25672, ack 37
+17:35:59.809049 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 25672:25708, ack 37
+17:35:59.809095 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 25708:25920, ack 37
+17:35:59.809132 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 25920:25956, ack 37
+17:35:59.809178 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 25956:26168, ack 37
+17:35:59.809218 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 26168:26204, ack 37
+17:35:59.809263 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 26204:26416, ack 37
+17:35:59.809301 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 26416:26452, ack 37
+17:35:59.809347 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 26452:26664, ack 37
+17:35:59.809384 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 26664:26700, ack 37
+17:35:59.809431 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 26700:26912, ack 37
+17:35:59.809468 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 26912:26948, ack 37
+17:35:59.809514 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 26948:27160, ack 37
+17:35:59.809551 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 27160:27196, ack 37
+17:35:59.809598 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 27196:27408, ack 37
+17:35:59.809635 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 27408:27444, ack 37
+17:35:59.809681 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 27444:27656, ack 37
+17:35:59.809718 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 27656:27692, ack 37
+17:35:59.809764 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 27692:27904, ack 37
+17:35:59.809801 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 27904:27940, ack 37
+17:35:59.809847 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 27940:28152, ack 37
+17:35:59.809885 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 28152:28188, ack 37
+17:35:59.809930 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 28188:28400, ack 37
+17:35:59.809969 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 28400:28436, ack 37
+17:35:59.810016 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 28436:28648, ack 37
+17:35:59.810053 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 28648:28684, ack 37
+17:35:59.810111 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 28684:28896, ack 37
+17:35:59.810184 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 28896:28932, ack 37
+17:35:59.810241 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 28932:29144, ack 37
+17:35:59.810280 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 29144:29180, ack 37
+17:35:59.810327 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 29180:29392, ack 37
+17:35:59.810365 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 29392:29428, ack 37
+17:35:59.810412 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 29428:29640, ack 37
+17:35:59.810495 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 29676:29888, ack 37
+17:35:59.810578 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 29924:30136, ack 37
+17:35:59.810662 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 30172:30384, ack 37
+17:35:59.810713 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 30384:30596, ack 37
+17:35:59.810785 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 30596:31168, ack 37
+17:35:59.810871 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 31168:31916, ack 37
+17:35:59.810985 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 31916:33192, ack 37
+17:35:59.832188 IP cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 24680, win 1021, len
+17:35:59.832284 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 33192:36112, ack 37
+17:35:59.832311 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 36112:36984, ack 37
+17:35:59.832503 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 36984:37180, ack 37
+17:35:59.832593 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 37180:37216, ack 37
+17:35:59.832663 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 37216:37428, ack 37
+17:35:59.832724 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 37428:37464, ack 37
+17:35:59.832849 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 37464:37676, ack 37
+17:35:59.832892 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 37676:37712, ack 37
+17:35:59.832944 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 37712:37924, ack 37
+17:35:59.833010 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 37924:38320, ack 37
+17:35:59.833089 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 38320:39068, ack 37
+17:35:59.833158 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 39068:39464, ack 37
+17:35:59.833244 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 39464:39676, ack 37
+17:35:59.833326 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 39676:39888, ack 37
+17:35:59.833426 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 39888:40100, ack 37
+17:35:59.833509 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 40100:40312, ack 37
+17:35:59.833599 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 40312:40524, ack 37
+17:35:59.833659 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 40524:40736, ack 37
+17:35:59.838966 IP cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 28896, win 1026, len
+17:35:59.838966 IP cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 33192, win 1021, len
+17:35:59.839017 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 40736:40948, ack 37
+17:35:59.839185 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 40948:41488, ack 37
+17:35:59.839258 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 41488:41700, ack 37
+17:35:59.839321 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 41700:41912, ack 37
+17:35:59.839381 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 41912:42124, ack 37
+17:35:59.839440 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 42124:42336, ack 37
+17:35:59.839498 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 42336:42548, ack 37
+17:35:59.839556 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 42548:42760, ack 37
+17:35:59.839614 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 42760:42972, ack 37
+17:35:59.839671 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 42972:43184, ack 37
+17:35:59.839728 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 43184:43396, ack 37
+17:35:59.839784 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 43396:43608, ack 37
+17:35:59.839841 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 43608:43820, ack 37
+17:35:59.839898 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 43820:44032, ack 37
+17:35:59.839954 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 44032:44244, ack 37
+17:35:59.840023 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 44244:44456, ack 37
+17:35:59.840080 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 44456:44668, ack 37
+17:35:59.840146 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 44668:44880, ack 37
+17:35:59.840201 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 44880:45092, ack 37
+17:35:59.840259 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 45092:45304, ack 37
+17:35:59.840317 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 45304:45516, ack 37
+17:35:59.840373 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 45516:45728, ack 37
+17:35:59.840428 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 45728:45940, ack 37
+17:35:59.840519 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 45940:46152, ack 37
+17:35:59.840590 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 46152:46364, ack 37
+17:35:59.840649 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 46364:46576, ack 37
+17:35:59.840707 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 46576:46788, ack 37
+17:35:59.840763 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 46788:47000, ack 37
+17:35:59.840818 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 47000:47212, ack 37
+17:35:59.840875 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 47212:47424, ack 37
+17:35:59.840932 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 47424:47636, ack 37
+17:35:59.840988 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 47636:47848, ack 37
+17:35:59.841044 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 47848:48060, ack 37
+17:35:59.841099 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 48060:48272, ack 37
+17:35:59.841155 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 48272:48484, ack 37
+17:35:59.841210 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 48484:48696, ack 37
+17:35:59.841266 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 48696:48908, ack 37
+17:35:59.841322 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 48908:49120, ack 37
+17:35:59.841376 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 49120:49332, ack 37
+17:35:59.841432 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 49332:49544, ack 37
+17:35:59.841491 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 49544:49756, ack 37
+17:35:59.841546 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 49756:49968, ack 37
+17:35:59.841614 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 49968:50180, ack 37
+17:35:59.841669 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 50180:50392, ack 37
+17:35:59.841729 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 50392:50604, ack 37
+17:35:59.841788 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 50604:50816, ack 37
+17:35:59.841846 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 50816:51028, ack 37
+17:35:59.841899 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 51028:51240, ack 37
+17:35:59.841964 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 51240:51452, ack 37
+17:35:59.842019 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 51452:51664, ack 37
+17:35:59.842075 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 51664:51876, ack 37
+17:35:59.842159 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 51876:52088, ack 37
+17:35:59.842245 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 52088:52300, ack 37
+17:35:59.842345 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 52300:52512, ack 37
+17:35:59.871367 IP cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 52300, win 1024, len
+17:35:59.871463 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 52512:52724, ack 37
+17:35:59.871639 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 52724:53104, ack 37
+17:35:59.871708 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 53104:53316, ack 37
+17:35:59.871766 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 53316:53528, ack 37
+17:35:59.871823 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 53528:53740, ack 37
+17:35:59.871889 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 53740:53952, ack 37
+17:35:59.871943 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 53952:54164, ack 37
+17:35:59.872020 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 54164:54376, ack 37
+17:35:59.872091 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 54376:54588, ack 37
+17:35:59.872154 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 54588:54800, ack 37
+17:35:59.872216 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 54800:55012, ack 37
+17:35:59.872278 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 55012:55224, ack 37
+17:35:59.872343 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 55224:55436, ack 37
+17:35:59.872403 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 55436:55648, ack 37
+17:35:59.872464 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 55648:55860, ack 37
+17:35:59.872528 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 55860:56072, ack 37
+17:35:59.872587 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 56072:56284, ack 37
+17:35:59.872649 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 56284:56496, ack 37
+17:35:59.872708 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 56496:56708, ack 37
+17:35:59.872768 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 56708:56920, ack 37
+17:35:59.872830 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 56920:57132, ack 37
+17:35:59.872889 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 57132:57344, ack 37
+17:35:59.872949 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 57344:57556, ack 37
+17:35:59.873007 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 57556:57768, ack 37
+17:35:59.873065 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 57768:57980, ack 37
+17:35:59.873122 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 57980:58192, ack 37
+17:35:59.873184 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 58192:58404, ack 37
+17:35:59.873250 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 58404:58616, ack 37
+17:35:59.873305 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 58616:58828, ack 37
+17:35:59.873361 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 58828:59040, ack 37
+17:35:59.873414 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 59040:59252, ack 37
+17:35:59.873467 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 59252:59464, ack 37
+17:35:59.873522 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 59464:59676, ack 37
+17:35:59.873574 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 59676:59888, ack 37
+17:35:59.873626 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 59888:60100, ack 37
+17:35:59.873680 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 60100:60312, ack 37
+17:35:59.873731 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 60312:60524, ack 37
+17:35:59.873786 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 60524:60736, ack 37
+17:35:59.873838 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 60736:60948, ack 37
+17:35:59.873889 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 60948:61160, ack 37
+17:35:59.873940 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 61160:61372, ack 37
+17:35:59.873990 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 61372:61584, ack 37
+17:35:59.874046 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 61584:61796, ack 37
+17:35:59.874098 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 61796:62008, ack 37
+17:35:59.874150 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 62008:62220, ack 37
+17:35:59.874203 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 62220:62432, ack 37
+17:35:59.874255 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 62432:62644, ack 37
+17:35:59.874306 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 62644:62856, ack 37
+17:35:59.874357 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 62856:63068, ack 37
+17:35:59.874412 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 63068:63280, ack 37
+17:35:59.874463 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 63280:63492, ack 37
+17:35:59.874513 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 63492:63704, ack 37
+17:35:59.874570 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 63704:63916, ack 37
+17:35:59.874621 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 63916:64128, ack 37
+17:35:59.874675 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 64128:64340, ack 37
+17:35:59.874727 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 64340:64552, ack 37
+17:35:59.874778 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 64552:64764, ack 37
+17:35:59.874829 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 64764:64976, ack 37
+17:35:59.874882 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 64976:65188, ack 37
+17:35:59.874934 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 65188:65400, ack 37
+17:35:59.874996 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 65400:65612, ack 37
+17:35:59.875048 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 65612:65824, ack 37
+17:35:59.875131 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 65824:66036, ack 37
+17:35:59.875190 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 66036:66248, ack 37
+17:35:59.875247 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 66248:66460, ack 37
+17:35:59.875299 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 66460:66672, ack 37
+17:35:59.875350 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 66672:66884, ack 37
+17:35:59.875402 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 66884:67096, ack 37
+17:35:59.875459 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 67096:67308, ack 37
+17:35:59.875512 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 67308:67520, ack 37
+17:35:59.875563 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 67520:67732, ack 37
+17:35:59.875615 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 67732:67944, ack 37
+17:35:59.875665 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 67944:68156, ack 37
+17:35:59.875717 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 68156:68368, ack 37
+17:35:59.885534 IP cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 54800, win 1022, len
+17:35:59.885594 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 68368:68580, ack 37
+17:35:59.885780 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 68580:68960, ack 37
+17:35:59.885857 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 68960:69172, ack 37
+17:35:59.885922 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 69172:69384, ack 37
+17:35:59.885987 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 69384:69596, ack 37
+17:35:59.886060 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 69596:69808, ack 37
+17:35:59.886115 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 69808:70020, ack 37
+17:35:59.886172 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 70020:70232, ack 37
+17:35:59.886226 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 70232:70444, ack 37
+17:35:59.886281 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 70444:70656, ack 37
+17:35:59.886334 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 70656:70868, ack 37
+17:35:59.935034 IP cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 60736, win 1023, len
+17:35:59.935034 IP cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 66672, win 1026, len
+17:35:59.935034 IP cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 70656, win 1024, len
+17:35:59.935034 IP cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 37:73, ack 64976, w
+17:35:59.935135 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 70868:71080, ack 37
+17:35:59.935500 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 71080:71956, ack 73
+17:35:59.935571 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 71956:72168, ack 73
+17:35:59.935632 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 72168:72380, ack 73
+17:35:59.935685 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 72380:72592, ack 73
+17:35:59.935741 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 72592:72804, ack 73
+17:35:59.935795 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 72804:73016, ack 73
+17:35:59.935848 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 73016:73228, ack 73
+17:35:59.935904 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 73228:73440, ack 73
+17:35:59.935956 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 73440:73652, ack 73
+17:35:59.936024 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 73652:73864, ack 73
+17:35:59.936079 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 73864:74076, ack 73
+17:35:59.936155 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 74076:74288, ack 73
+17:35:59.936209 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 74288:74500, ack 73
+17:35:59.936300 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 74500:74712, ack 73
+17:35:59.936362 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 74712:74924, ack 73
+17:35:59.936426 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 74924:75136, ack 73
+17:35:59.936478 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 75136:75348, ack 73
+17:35:59.936529 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 75348:75560, ack 73
+17:35:59.936582 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 75560:75772, ack 73
+17:35:59.936638 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 75772:75984, ack 73
+17:35:59.936695 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 75984:76196, ack 73
+17:35:59.936765 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 76196:76408, ack 73
+17:35:59.936822 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 76408:76620, ack 73
+17:35:59.936876 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 76620:76832, ack 73
+17:35:59.936928 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 76832:77044, ack 73
+17:35:59.936979 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 77044:77256, ack 73
+17:35:59.937050 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 77256:77468, ack 73
+17:35:59.937123 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 77468:77680, ack 73
+17:35:59.937180 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 77680:77892, ack 73
+17:35:59.937235 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 77892:78104, ack 73
+17:35:59.937296 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 78104:78316, ack 73
+17:35:59.937349 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 78316:78528, ack 73
+17:35:59.937407 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 78528:78740, ack 73
+17:35:59.937469 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 78740:78952, ack 73
+17:35:59.937533 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 78952:79164, ack 73
+17:35:59.937586 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 79164:79376, ack 73
+17:35:59.937641 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 79376:79588, ack 73
+17:35:59.937706 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 79588:79800, ack 73
+17:35:59.937765 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 79800:80012, ack 73
+17:35:59.937819 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 80012:80224, ack 73
+17:35:59.937871 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 80224:80436, ack 73
+17:35:59.937931 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 80436:80648, ack 73
+17:35:59.937984 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 80648:80860, ack 73
+17:35:59.938034 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 80860:81072, ack 73
+17:35:59.938089 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 81072:81284, ack 73
+17:35:59.938181 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 81284:81496, ack 73
+17:35:59.938252 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 81496:81708, ack 73
+17:35:59.938329 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 81708:81920, ack 73
+17:35:59.938419 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 81920:82132, ack 73
+17:35:59.938479 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 82132:82344, ack 73
+17:35:59.938546 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 82344:82556, ack 73
+17:35:59.938599 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 82556:82768, ack 73
+17:35:59.938692 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 82768:82980, ack 73
+17:35:59.938777 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 82980:83192, ack 73
+17:35:59.938846 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 83192:83404, ack 73
+17:35:59.938922 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 83404:83616, ack 73
+17:35:59.938980 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 83616:83828, ack 73
+17:35:59.939032 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 83828:84040, ack 73
+17:35:59.939099 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 84040:84252, ack 73
+17:35:59.939155 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 84252:84464, ack 73
+^C17:35:59.939215 IP 103.1.212.125.16180 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.http: Flags [R.], seq 2466641223, ack 3980756172, win 128, options [nop,nop,TS v
+
+391 packets captured
+437 packets received by filter
+17 packets dropped by kernel
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ^C
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#

@@ -1,4 +1,4 @@
-root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# nmap nba.com
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap nba.com
 Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-21 22:37 UTC
 Nmap scan report for nba.com (34.213.106.51)
 Host is up (0.079s latency).
@@ -12,7 +12,7 @@ PORT    STATE SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 7.02 seconds
 ---------------------------------------------------------------------
 
-root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# nmap -p 1000 nba.com
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 1000 nba.com
 Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-21 22:39 UTC
 Nmap scan report for nba.com (54.68.182.72)
 Host is up (0.079s latency).
@@ -25,7 +25,7 @@ PORT     STATE    SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 1.02 seconds
 ----------------------------------------------------------------------
 
-root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# nmap -p 900-1000 nba.com
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 900-1000 nba.com
 Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-21 22:41 UTC
 Nmap scan report for nba.com (54.68.182.72)
 Host is up (0.077s latency).
@@ -36,7 +36,7 @@ All 101 scanned ports on nba.com (54.68.182.72) are filtered
 Nmap done: 1 IP address (1 host up) scanned in 3.28 seconds
 -----------------------------------------------------------------------
 
-root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# nmap -F udemy.com
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F udemy.com
 Starting Nmap 7.80 ( https://nmap.org ) at 2023-01-21 22:42 UTC
 Nmap scan report for udemy.com (104.16.65.85)
 Host is up (0.012s latency).

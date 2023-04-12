@@ -1,5 +1,5 @@
 
- seq 3013476:3013696, ack 1765, win 501, length 220
+seq 3013476:3013696, ack 1765, win 501, length 220
 17:51:35.476713 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.61067: Flags [P.], seq 3013696:3013916, ack 1765, win 501, length 220
 17:51:35.476806 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.61067: Flags [P.], seq 3013916:3014136, ack 1765, win 501, length 220
 17:51:35.476901 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.61067: Flags [P.], seq 3014136:3014356, ack 1765, win 501, length 220

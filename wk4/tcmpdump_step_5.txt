@@ -1,5 +1,5 @@
 
-:43:39.107251 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 496172:499092, ack 181, win 501, length 2920
+:43:39.107251 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpef85e42f6a6ce-cmf85e42f6a6cc.cpe.net.cable.rogers.com.50151: Flags [P.], seq 496172:499092, ack 181, win 501, length 2920
         0x0000:  fe00 0000 0101 e212 b391 9c56 0800 4510  ...........V..E.
         0x0010:  0b90 d4fd 4000 4006 9d9c 867a 2101 63f7  ....@.@....z!.c.
         0x0020:  b14b 0016 c3e7 4297 e4a5 55c6 a0ae 5018  .K....B...U...P.

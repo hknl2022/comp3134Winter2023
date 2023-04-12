@@ -1,5 +1,4 @@
-
-root@lamponubuntu2004u-s-1vcpu-1gb-tor1-01:~# tcpdump -D
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -D
 1.eth0 [Up, Running]
 2.eth1 [Up, Running]
 3.lo [Up, Running, Loopback]
@@ -7,5 +6,4 @@ root@lamponubuntu2004u-s-1vcpu-1gb-tor1-01:~# tcpdump -D
 5.bluetooth-monitor (Bluetooth Linux Monitor) [none]
 6.nflog (Linux netfilter log (NFLOG) interface) [none]
 7.nfqueue (Linux netfilter queue (NFQUEUE) interface) [none]
-root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~#
-
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#
