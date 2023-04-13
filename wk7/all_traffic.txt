@@ -1,0 +1,1 @@
+tcpdump -ni eth0 > all_traffic_20230413_1626
